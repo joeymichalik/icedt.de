@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: black;
-    background: top no-repeat url("https://images5.alphacoders.com/438/438463.png") ;
+    background: rgb(199, 197, 197) 
+                top no-repeat url(/styles/pictures/woddentexture.jpg);
 }
 
 .header {
