@@ -6,7 +6,7 @@
 
 body {
     background: rgb(199, 197, 197) 
-                top no-repeat url(/styles/pictures/woddentexture.jpg);
+                top no-repeat url(styles\pictures\woddentexture.jpg);
 }
 
 .header {
