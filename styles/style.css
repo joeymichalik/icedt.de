@@ -57,3 +57,9 @@ body {
     border-color: orange;
 }
 
+p {
+    color: white;
+    font-family: "jetBrainsMono", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
