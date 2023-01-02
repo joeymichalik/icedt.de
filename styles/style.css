@@ -1,0 +1,52 @@
+/* Importing Fonts*/
+@font-face {
+    font-family: "jetBrainsMono";
+    src: url("font/JetBrainsMono-Light.ttf") format("truetype");
+}
+
+body {
+    background: top no-repeat url("https://images5.alphacoders.com/438/438463.png") ;
+}
+
+.header {
+    font-family: "jetBrainsMono", Calibri, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+
+/*buttons*/
+#container_headerbutton {
+    height: 100px;
+    position: relative;
+
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.headerbutton {
+    left: 50%;
+    font-family: "jetBrainsMono", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+    background-color: rgb(207, 208, 209);
+    border: 0;
+}
+
+.headerbutton:hover {
+    color: rgb(207, 208, 209);
+    background-color: rgb(54, 54, 54);
+}
+
+.headerbutton:checked {
+    border-bottom: 2px;
+    border-color: orange;
+}
+
