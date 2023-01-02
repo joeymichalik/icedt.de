@@ -4,12 +4,14 @@
     src: url("font/JetBrainsMono-Light.ttf") format("truetype");
 }
 
+/* Background*/
 body {
     background: black 
     top no-repeat url("pictures/HandyBackground.jpg");
     background-size: cover ;
 }
 
+/*Header*/
 .header {
     font-family: "jetBrainsMono", Calibri, Tahoma, sans-serif;
     font-size: 50px;
@@ -34,6 +36,9 @@ body {
 }
 
 .headerbutton {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 150px;
     left: 50%;
     font-family: "jetBrainsMono", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
