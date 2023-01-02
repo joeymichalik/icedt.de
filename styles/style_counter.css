@@ -6,7 +6,7 @@
 
 /* Background*/
 body {
-    background: black 
+    background: rgb(14, 26, 15)
     top no-repeat url("pictures/counter_background.jpg");
     background-size: cover ;
 }
@@ -14,7 +14,7 @@ body {
 /*Header*/
 .header {
     font-family: "jetBrainsMono", Calibri, Tahoma, sans-serif;
-    font-size: 50px;
+    font-size: 8vw;
     text-align: center;
     color: white;
 }
@@ -36,6 +36,6 @@ p {
 td {
     color: white;
     font-family: "jetBrainsMono", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
+    font-size: 6vw;
 }
 
