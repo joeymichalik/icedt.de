@@ -1,0 +1,91 @@
+/* Importing Fonts*/
+@font-face {
+    font-family: "jetBrainsMono";
+    src: url("font/JetBrainsMono-Light.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: "jetBrainsMono";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ----- */
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.horizontal-center {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* ----- */
+
+.navbar {
+    position: relative;
+    width: auto;
+    height: 75px;    
+    background-color: black;
+}
+
+.navigator {
+    color: white;
+    border-spacing: 20px;
+
+    font-size: 20px;
+}
+
+div.navbar a {
+    color: white;
+    text-decoration-line: none;
+}
+
+div.navbar a:hover {
+    color: lightgray;
+}
+
+.image-container {
+    position: relative;
+    display: block;
+}
+
+.imageheader {
+    color: white;
+    font-size: 10vw;
+    text-align: center;
+}
+
+.container-left {
+    padding: 20px;
+    width: 50%;
+    height: auto;
+    left: 0%;
+    background-color: lightgray;
+}
+
+.container-right {
+    padding: 20px;
+    width: 50%;
+    height: auto;
+    left: 50%;
+    background-color: lightgray;
+}
+
