@@ -4,22 +4,34 @@
     src: url("font/JetBrainsMono-Light.ttf") format("truetype");
 }
 
+* {
+    margin:0px;
+    padding:0px;
+}
+
 body {
     font-family: "jetBrainsMono";
-    margin: 0;
-    padding: 0;
+    margin:0px;
+    padding:0px;
 }
 
 .container {
-    margin: 0;
     position: relative;
     text-align: center;
     color: white;
     size: 100vw;
 }
 
+.container2 {
+    position: relative;
+    text-align: center;
+    background-color: rgb(49, 49, 49);
+    width: auto;
+    height: 800px;
+}
+
 .background {
-    margin: 0;
+    display: block;
     position: absolute;
     width: auto;
 }
@@ -72,7 +84,6 @@ a:hover {
 }
 
 #navigator {
-    margin: 0;
     height: 50px;
     width: auto;
     background-color: black;
