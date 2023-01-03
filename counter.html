@@ -2,28 +2,58 @@
 
 <html>
     <head>
+
         <title>TJM - Counter</title>
         <link href="styles/style_counter.css" rel="stylesheet">
         <link href="styles/pictures/[0] icon.png" rel="icon">
+
+
+
     </head>
 
     <body>
-        <div id="top">
-            <header class="header">
-                <h1>Counter</h1>
-            </header>
 
-            <!-- Counter here -->
+
+        <div class="navbar">
+
+            <div class="vertical-center">
+    
+                <table class="navigator">
+                    <tr>
+                        <td><img src="styles/pictures/[0] icon.png" height=35px></td>
+                        <td><a href="index.html">Home</a></td>
+                        <td><a href="readme.html">ReadMe</a></td>
+                        <td><a class="current-page" href="counter.html">Counter</a></td>
+                    </tr>
+                </table>
+    
+            </div>
+    
+        </div>
+
+
+        <div class="image-container">
+
+            <img width="100%" height="auto" src="styles/pictures/counter_background.jpg" alt="mountain view">
+
             <div class="center">
-                <table>
+
+                <header class="imageheader">You & Me</header>
+
+                <table class="counter horizontal-center">
                     <tr>
                         <td id="days"></td><td id="hours"></td><td id="mins"></td><td id="secs"></td>
                     </tr>
                 </table>
+
             </div>
+
         </div>
+
     </body>
 
+
     <script src="scripts/timeCounter"></script>
+
 
 </html>

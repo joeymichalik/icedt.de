@@ -16,7 +16,7 @@ body {
     padding: 0;
 }
 
-/* ----- */
+/* ----- Positioning ----- */
 
 .center {
     position: absolute;
@@ -37,7 +37,9 @@ body {
     transform: translate(-50%);
 }
 
-/* ----- */
+/*  >>> Objects <<< */
+
+/* ----- Navbar ----- */
 
 .navbar {
     position: relative;
@@ -62,6 +64,13 @@ div.navbar a:hover {
     color: lightgray;
 }
 
+div.navbar a.current-page {
+    color: lightgray;
+}
+
+
+/* ----- Image Container ----- */
+
 .image-container {
     position: relative;
     display: block;
@@ -72,6 +81,29 @@ div.navbar a:hover {
     font-size: 10vw;
     text-align: center;
 }
+
+/* ----- Header Buttons ----- */
+
+div.image-container button {
+    margin-top: 30px;
+    margin-right: 10px;
+    padding: 5px;
+    width: 150px;
+
+    border: 0;
+    border-radius: 5px;
+    background-color: lightgray;
+    color: rgb(46, 45, 45);
+
+    font-size: 20px;
+}
+
+div.image-container button:hover {
+    background-color: rgb(46, 45, 45);
+    color: white;
+}
+
+/* ----- Container Box ----- */
 
 .container-left {
     padding: 20px;

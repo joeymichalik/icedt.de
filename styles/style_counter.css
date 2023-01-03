@@ -4,45 +4,89 @@
     src: url("font/JetBrainsMono-Light.ttf") format("truetype");
 }
 
-/* Background*/
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: "jetBrainsMono";
+}
+
 body {
-    background: rgb(10, 24, 17)
-    top no-repeat url("pictures/counter_background.jpg");
-    background-size: 100vw ;
+    margin: 0;
+    padding: 0;
 }
 
-/*
-#top {
-    background: top no-repeat url("pictures/counter_background.jpg");
-    background-size: 100vw ;
-}
-*/
-
-/*Header*/
-.header {
-    font-family: "jetBrainsMono", Calibri, Tahoma, sans-serif;
-    font-size: 8vw;
-    text-align: center;
-    color: white;
-}
+/* ----- Positioning ----- */
 
 .center {
-    margin: 0;
     position: absolute;
+    top: 50%;
     left: 50%;
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
-p {
-    color: white;
-    font-family: "jetBrainsMono", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 4vw;
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 
-td {
-    color: white;
-    font-family: "jetBrainsMono", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 6vw;
+.horizontal-center {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
 }
+
+
+/* >>> Objects <<< */
+
+    /* ----- Navbar ----- */
+
+    .navbar {
+        position: relative;
+        width: auto;
+        height: 75px;    
+        background-color: black;
+    }
+
+    .navigator {
+        color: white;
+        border-spacing: 20px;
+
+        font-size: 20px;
+    }
+
+    div.navbar a {
+        color: white;
+        text-decoration-line: none;
+    }
+
+    div.navbar a:hover {
+        color: lightgray;
+    }
+
+    div.navbar a.current-page {
+        color: lightgray;
+    }
+
+    /* ----- Image Container ----- */
+
+    .image-container {
+        position: relative;
+        display: block;
+    }
+
+    .imageheader {
+        color: white;
+        font-size: 10vw;
+        text-align: center;
+    }
+
+        /* > Counter */
+
+        div.image-container table.counter {
+            color: white;
+            font-size: 5vw;
+        }
+
 
