@@ -15,11 +15,17 @@ body {
     padding:0px;
 }
 
+img.crop-center{
+    height: 55vw;
+    width: 100% !important;
+    object-fit: cover;
+    object-position: top center;
+}
+
 .container {
     position: relative;
     text-align: center;
     color: white;
-    size: 100vw;
 }
 
 .container2 {
@@ -27,7 +33,7 @@ body {
     text-align: center;
     background-color: rgb(49, 49, 49);
     width: auto;
-    height: 800px;
+    height: 50vw;
 }
 
 .background {
