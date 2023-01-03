@@ -6,6 +6,8 @@
 
 /* Background*/
 body {
+    margin: 0px;
+    padding: 0px;
     background: black 
     top no-repeat url("pictures/HandyBackground.jpg");
     background-size: cover ;

@@ -4,15 +4,24 @@
     src: url("font/JetBrainsMono-Light.ttf") format("truetype");
 }
 
-* {
+body {
     font-family: "jetBrainsMono";
+    margin: 0;
+    padding: 0;
 }
 
 .container {
+    margin: 0;
     position: relative;
     text-align: center;
     color: white;
     size: 100vw;
+}
+
+.background {
+    margin: 0;
+    position: absolute;
+    width: auto;
 }
 
 .centered {
@@ -63,6 +72,7 @@ a:hover {
 }
 
 #navigator {
+    margin: 0;
     height: 50px;
     width: auto;
     background-color: black;
