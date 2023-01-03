@@ -6,10 +6,17 @@
 
 /* Background*/
 body {
-    background: rgb(14, 26, 15)
+    background: rgb(10, 24, 17)
     top no-repeat url("pictures/counter_background.jpg");
-    background-size: cover ;
+    background-size: 100vw ;
 }
+
+/*
+#top {
+    background: top no-repeat url("pictures/counter_background.jpg");
+    background-size: 100vw ;
+}
+*/
 
 /*Header*/
 .header {
@@ -30,7 +37,7 @@ body {
 p {
     color: white;
     font-family: "jetBrainsMono", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 4vw;
 }
 
 td {
