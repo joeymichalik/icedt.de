@@ -74,6 +74,7 @@ body {
     .image-container {
         position: relative;
         display: block;
+        white-space: nowrap;
     }
 
     .imageheader {
