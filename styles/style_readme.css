@@ -17,7 +17,6 @@ body {
 }
 
 p {
-    color: white;
     font-size: 20px;
 }
 
@@ -79,7 +78,6 @@ p {
 
     .image-container {
     position: relative;
-    display: block;
     white-space: nowrap;
     }
 
@@ -88,3 +86,33 @@ p {
     font-size: 10vw;
     text-align: center;
     }
+
+    .image-container img {
+        display: block;
+    }
+
+
+    /* ----- Container --- */
+
+    .container {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 50px 0px;
+
+        background-color: lightgrey;
+        text-align: center;
+    }
+
+    .container p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+    .container h1 {
+        margin-bottom: 5px;
+    }
+
+        /* > Container Devider */
+        .container-devider {
+            height: 10px;
+        }
