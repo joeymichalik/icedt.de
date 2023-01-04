@@ -5,92 +5,86 @@
 }
 
 * {
-    margin:0px;
-    padding:0px;
+    margin: 0;
+    padding: 0;
+
+    font-family: "jetBrainsMono";
 }
 
 body {
-    font-family: "jetBrainsMono";
-    margin:0px;
-    padding:0px;
+    margin: 0;
+    padding: 0;
 }
 
-img.crop-center{
-    height: 55vw;
-    width: 100% !important;
-    object-fit: cover;
-    object-position: top center;
-}
-
-.container {
-    position: relative;
-    text-align: center;
+p {
     color: white;
+    font-size: 20px;
 }
 
-.container2 {
-    position: relative;
-    text-align: center;
-    background-color: rgb(49, 49, 49);
-    width: auto;
-    height: 50vw;
-}
+/* ----- Positioning ----- */
 
-.background {
-    display: block;
-    position: absolute;
-    width: auto;
-}
-
-.centered {
+.center {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.vertical-centered {
+.vertical-center {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
 }
 
-.horizontal-centered {
+.horizontal-center {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
 }
 
-header {
-    font-size: 8vw;
+
+/* >>> Objects <<< */
+
+    /* ----- Navbar ----- */
+
+    .navbar {
+        position: relative;
+        width: auto;
+        height: 75px;    
+        background-color: black;
+    }
+
+    .navigator {
+        color: white;
+        border-spacing: 20px;
+
+        font-size: 20px;
+    }
+
+    div.navbar a {
+        color: white;
+        text-decoration-line: none;
+    }
+
+    div.navbar a:hover {
+        color: lightgray;
+    }
+
+    div.navbar a.current-page {
+        color: lightgray;
+    }
+
+
+    /* ----- Image Container ----- */
+
+    .image-container {
+    position: relative;
+    display: block;
+    white-space: nowrap;
+    }
+
+    .imageheader {
     color: white;
-}
-
-h1 {
-    font-size: 2vw;
-    color: white;
-}
-
-tr {
-    font-size: 20px;
-    color: white;
-}
-
-td {
-    width: 100px;
-}
-
-a {
-    color: white;
-    text-decoration-line: none;
-}
-
-a:hover {
-    color: grey;
-}
-
-#navigator {
-    height: 50px;
-    width: auto;
-    background-color: black;
-}
+    font-size: 10vw;
+    text-align: center;
+    }
