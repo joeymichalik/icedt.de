@@ -64,6 +64,12 @@ nav img {
     color: rgb(255, 255, 255);
 }
 
+.container h1 {
+    text-align: center;
+    color: lightgray;
+    font-weight: lighter;
+}
+
 .buttons {
     display: flex;
     justify-content: center;
@@ -71,6 +77,7 @@ nav img {
 
 .buttons button {
     background-color: lightgray;
+    font-size: 1.5em;
 
     width: 8em;
 
@@ -78,7 +85,7 @@ nav img {
     padding: 0.5em 1em;
 
     border: 0;
-    border-radius: 10px;
+    border-radius: 1em;
     
 }
 
