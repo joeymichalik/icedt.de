@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Jura');
+
+
+body {
+    padding: 0;
+}
+
+
+/* !--- OBJECTS ---! */
+
+/* --- Nav Bar --- */
+nav {
+    display: flex;
+    align-items: center;
+
+    background-color: black;
+}
+
+nav a {
+    font-family: "Jura";
+    color: white;
+    text-decoration-line: none;
+    font-size: 20px;
+    padding: 1em;
+}
+
+nav a:hover {
+    color: #4EB5FF;
+}
+
+nav img {
+    height: 2em;
+}
+
+
+/* --- Banner --- */
+.banner {
+    height: 500px;
+    width: 100%;
+
+    background: url("pictures/HandyBackground_full.jpg") top left/cover no-repeat;    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner header {
+    font-size: 4em;
+    text-align: center;
+}
+
+
+/* --- Container --- */
+.container {
+    color: rgb(255, 255, 255);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button {
+    background-color: lightgray;
+
+    width: 8em;
+
+    margin: 1em 1em;
+    padding: 0.5em 1em;
+
+    border: 0;
+    border-radius: 10px;
+    
+}
+
+.buttons button:hover {
+    color: white;
+    background-color: #4EB5FF;;
+}
