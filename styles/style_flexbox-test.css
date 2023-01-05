@@ -32,6 +32,10 @@ nav a:hover {
     color: #4EB5FF;
 }
 
+nav a.current {
+    color: #4EB5FF;
+}
+
 nav img {
     height: 2em;
 }
