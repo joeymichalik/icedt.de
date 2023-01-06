@@ -1,14 +1,11 @@
 /* Importing Fonts*/
-@font-face {
-    font-family: "jetBrainsMono";
-    src: url("font/JetBrainsMono-Light.ttf") format("truetype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Jura');
 
 * {
     margin: 0;
     padding: 0;
 
-    font-family: "jetBrainsMono";
+    font-family: "Jura";
 }
 
 body {

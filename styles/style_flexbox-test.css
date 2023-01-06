@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Jura');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
 
 * {
     font-family: "Jura";
@@ -43,7 +43,7 @@ nav img {
 
 /* --- Banner --- */
 .banner {
-    height: 500px;
+    height: 40vw;
     width: 100%;
 
     background: url("pictures/HandyBackground_full.jpg") no-repeat top left/cover;    
@@ -92,4 +92,33 @@ nav img {
 .buttons button:hover {
     color: white;
     background-color: #4EB5FF;;
+}
+
+
+/* Two Box Container */
+.two-box-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: start ;
+    padding: 30px 10px 40px ;
+
+    color: white;
+    text-align: center;
+    background-color: #333333;
+
+}
+
+
+/* Footer */
+.footer {
+    display: flex;
+    padding-left: 30px;
+
+    color: white;
+    background-color: #333333;
 }

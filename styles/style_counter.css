@@ -1,14 +1,8 @@
 /* Importing Fonts*/
-@font-face {
-    font-family: "jetBrainsMono";
-    src: url("font/JetBrainsMono-Light.ttf") format("truetype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Jura');
 
 * {
-    margin: 0;
-    padding: 0;
-
-    font-family: "jetBrainsMono";
+    font-family: "Jura";
 }
 
 body {
@@ -69,25 +63,49 @@ body {
         color: lightgray;
     }
 
-    /* ----- Image Container ----- */
+    
+    /* Banner */
+    .banner {
+        display: flex;
+        flex-direction: column;
+        height: 40vw;
+        width: 100%;
 
-    .image-container {
-        position: relative;
-        display: block;
-        white-space: nowrap;
+        background: url("pictures/counter_background_full.jpg") no-repeat top left/cover ;
+
+        justify-content: center;
+        align-items: center;
     }
 
-    .imageheader {
+    .banner header {
+        font-size: 4em;
+    }
+
+    .banner h1 {
+        font-weight: lighter;
+    }
+
+    .counter {
+        display: flex;
         color: white;
-        font-size: 10vw;
-        text-align: center;
+        background-color: #4EB5FF;
+        border-radius: 4em;
+        padding: 0px 1em;
     }
 
-        /* > Counter */
+    .counter h1 {
+        padding: 0em 0.25em;
+        font-weight: lighter;
+    }
 
-        div.image-container table.counter {
-            color: white;
-            font-size: 5vw;
-        }
+
+    /* Footer */
+    .footer {
+        display: flex;
+        padding-left: 30px;
+
+        color: white;
+        background-color: #333333;
+    }
 
 
