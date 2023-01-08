@@ -1,66 +1,80 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>TJM - Test</title>
-    <link href="styles/pictures/[0] icon.png" rel="icon">
-    <link href="styles/style_index.css" rel="stylesheet">
+    <title>TJM - Home</title>
+    <link rel="stylesheet" href="styles/stylesheet.css">
+    <link rel="icon" href="styles/pictures/[0] icon.png">
 
 </head>
 
 
 <body>
+    
+    <nav>
+        <a href="index.html"><img src="styles/pictures/[0] icon.png" alt="[0] Logo"></a>
+
+        <ul class="list">
+            <il><a href="index.html">Home</a></il>
+            <il><a href="counter.html">Counter</a></il>
+            <il><a href="testing.html">Testing</a></il>
+        </ul>
+    </nav>
 
 
-    <div class="navbar">
+    <div class="banner">
 
-        <div class="vertical-center">
-
-            <table class="navigator">
-                <tr>
-                    <td><a href="index.html"><img src="styles/pictures/[0] icon.png" height=35px></a></td>
-                    <td><a class="current-page" href="index.html">Home</a></td>
-                    <td><a href="readme.html">ReadMe</a></td>
-                    <td><a href="counter.html">Counter</a></td>
-                </tr>
-            </table>
+        <div class="container">
+            <h1>This is a testing page for FLEX</h1>
+            
+            <div class="buttons">
+                <form action="counter.html"><button class="headerbutton">Counter</button></form>
+                <form action="testing.html"><button class="headerbutton">Counter</button></form>
+            </div>
 
         </div>
 
     </div>
 
 
-    <div class="image-container">
+    <div class="two-box-container">
 
-        <img width="100%" height="auto" src="styles/pictures/HandyBackground.jpg">
-
-        <div class="center">
-
-                <header class="imageheader">Hello Wolrd</header>
-
-            <table class="horizontal-center">
-                <tr>
-                    <td><form action="readme.html"><button class="headerbutton">ReadMe</button></form></td>
-                    <td><form action="counter.html"><button class="headerbutton">Counter</button></form></td>
-                    <td><form action="flexbox-test.html"><button class="headerbutton">Testing</button></form></td>
-                </tr>
-            </table>
-
+        <div class="box">
+            <h3>HTML</h3>
+            <p>... is a markup language and defines the obejcts you see on this page
+                 - as example this text is a paragraph definded by tags</p>
         </div>
+
+        <div class="box">
+            <h3>CSS</h3>
+            <p>...is the way how you design & style your html
+                 - colors, sizes, animations, fonts, etc...
+                 Everything defined by CSS</p>
+        </div>
+
+        <div class="box">
+            <h3>JavaScript</h3>
+            <p>... is a programming language to give more functionality to the Website
+                 - as example look at the counter on this website</p>
+        </div>
+
+    </div>
+
+
+    <div class="wide-image">
 
     </div>
 
 
     <div class="footer">
-        <p>Copyright (c) 2023 Joey Michalik. Alle Rechte vorbehalten</p>
+        <p>Copyright &copy 2023 Joey Michalik. Alle Rechte vorbehalten.</p>
     </div>
 
-    
 </body>
-
 </html>

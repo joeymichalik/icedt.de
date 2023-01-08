@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+
+* {
+    font-family: "Jura";
+    font-weight: 300;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* !--- OBJECTS ---! */
+
+    /* --- Nav Bar --- */
+    nav {
+        display: flex;
+        justify-items: center;
+        padding-left: 2em;
+        background-color: #333333;
+    }
+
+    nav img {
+        height: 2em;
+    }
+
+    nav .list {
+        display: flex;
+    }
+
+    nav a {
+        padding-right: 1em;
+        text-decoration: none;
+        font-size: 1.5em;
+        color: white;
+    }
+
+    nav a:hover {
+        color: #4EB5FF;
+    }
+
+    /* --- Banner --- */
+    .banner {
+        height: 45vw;
+        width: 100%;
+
+        background: url("pictures/HandyBackground_full.jpg") no-repeat top left/cover;    
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner h1 {
+        font-size: 4em;
+        text-align: center;
+    }
+
+
+    /* --- Container --- */
+    .banner .container {
+        color: rgb(255, 255, 255);
+    }
+
+    .banner .container h1 {
+        text-align: center;
+        color: lightgray;
+        font-weight: lighter;
+    }
+
+    .banner .buttons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner .buttons button {
+        background-color: lightgray;
+        font-size: 1.5em;
+
+        width: 8em;
+
+        margin: 1em 1em;
+        padding: 0.5em 1em;
+
+        border: 0;
+        border-radius: 1em;
+        
+    }
+
+    .banner .buttons button:hover {
+        color: white;
+        background-color: #4EB5FF;;
+    }
+
+
+    /* Two Box Container */
+    .two-box-container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: start ;
+        padding: 30px 10px 40px ;
+
+        color: white;
+        text-align: center;
+        background-color: #333333;
+
+    }
+
+
+    /* Footer */
+    .footer {
+        display: flex;
+        padding-left: 30px;
+
+        color: white;
+        background-color: #333333;
+    }
