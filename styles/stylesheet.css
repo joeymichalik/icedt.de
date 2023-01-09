@@ -62,12 +62,18 @@ body {
     /* --- Banner Container --- */
     .banner .container {
         color: rgb(255, 255, 255);
+        padding-bottom: 5em;
     }
 
     .banner .container h1 {
         text-align: center;
-        color: lightgray;
+        color: white;
         font-weight: lighter;
+    }
+
+    .banner .container h2 {
+        font-size: 2em;
+        text-align: center;
     }
 
     .banner .buttons {

@@ -1,0 +1,19 @@
+.banner{
+    background: url("pictures/counter_background_full.jpg") center/cover;
+}
+
+.counter{
+    background-color: #4EB5FF;
+    border-radius: 2em;
+    padding: 0 1em ;
+    font-size: 2em;
+
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.counter p{
+    text-align: center;
+    width: 2.2em;
+}
