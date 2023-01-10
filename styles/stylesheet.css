@@ -16,7 +16,7 @@ body {
     /* --- Nav Bar --- */
     nav {
         display: flex;
-        justify-items: center;
+        align-items: center;
         padding-left: 2em;
         background-color: #333333;
     }
@@ -27,6 +27,12 @@ body {
 
     nav .list {
         display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    nav .list li {
+        flex: 0 1 100;
     }
 
     nav a {
