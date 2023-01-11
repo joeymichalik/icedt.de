@@ -2,6 +2,10 @@
     background: url("pictures/counter_background_full.jpg") center/cover;
 }
 
+.banner h1{
+    font-family: "Megrim";
+}
+
 .counter{
     background-color: #4EB5FF;
     border-radius: 2em;
