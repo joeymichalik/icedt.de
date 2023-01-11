@@ -104,14 +104,13 @@ body {
         margin: 1em 1em;
         padding: 0.5em 1em;
 
-        border: 0;
+        border: none;
         border-radius: 1em;
         
     }
 
     .banner .buttons button:hover {
-        color: white;
-        background-color: #4EB5FF;
+        background-color: hsl(0 0% 100% / 0.2);
     }
 
 
