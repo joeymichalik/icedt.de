@@ -12,20 +12,24 @@
     <link rel="stylesheet" href="styles/stylesheet.css">
     <link rel="icon" href="styles/pictures/[0] icon.png">
 
+    <script src="scripts/nav.js" defer></script>
+
 </head>
 
 
 <body>
+
+    <button class="mobile-nav-toggle"></button>
     
     <nav>
 
         <a class="logo" href="index.html">IcedT</a>
 
-        <ul class="list">
-            <il><a class="current" href="index.html"><span aria-disabled="true">//</span> Home</a></il>
-            <il><a href="counter.html"><span aria-disabled="true">//</span> Counter</a></il>
-            <il><a href="music.html"><span aria-disabled="true">//</span> Music</a></il>
-            <il><a href="testing.html"><span aria-disabled="true">//</span> Testing</a></il>
+        <ul data-visible="false" class="primary-navbar">
+            <li><a class="current" href="index.html"><span aria-disabled="true">//</span> Home</a></li>
+            <li><a href="counter.html"><span aria-disabled="true">//</span> Counter</a></li>
+            <li><a href="music.html"><span aria-disabled="true">//</span> Music</a></li>
+            <li><a href="testing.html"><span aria-disabled="true">//</span> Testing</a></li>
         </ul>
         
     </nav>

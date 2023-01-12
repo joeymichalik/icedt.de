@@ -9,47 +9,84 @@
 body {
     padding: 0;
     margin: 0;
+    overflow: hidden   ;
 }
 
 
 /* !--- OBJECTS ---! */
 
-    /* --- Nav Bar --- */
-    nav {
-        background-color: #333333;
-        padding: 0 2em;
+/* --- Nav Bar --- */
+    .logo{
+        font-family: "Megrim";
+        color: #4EB5FF;
+    }
 
+    nav{
+        background-color: #333333;
         display: flex;
-        align-items: center;
         justify-content: space-between;
+        align-items: center;
+        padding: 0.5em 1em;
+        font-size: 1.5em;
+    }
+
+    nav ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
     }
 
     nav a{
         color: white;
         text-decoration: none;
-        font-size: 1.5em;
-        padding: 5px;
     }
 
-    nav .list{
+    .primary-navbar{
         display: flex;
-        gap:2em;
-        flex-wrap: wrap;
+        gap: 2em;
     }
 
-    nav .list a:hover{
-        color: #4EB5FF;
+    .mobile-nav-toggle{
+        display: none;
     }
 
-    nav .list .current{
-        border-bottom: solid 0.05em;
-        border-color: #4EB5FF;
+    @media (max-width: 40em) {
+        .primary-navbar{
+            background: hsl(0 0% 100% / 0.2);
+            backdrop-filter: blur(1rem);
+            
+            z-index: 1000;
+            position: fixed;
+            flex-direction: column;
+            gap: 0.5em;
+
+            inset: 0 0 0 30%;
+            padding: 5rem 0 0 2rem;
+            transform: translate(100%);
+        }
+
+        .primary-navbar[data-visible="true"]{
+            transform: translate(0%);
+        }
+
+        .mobile-nav-toggle{
+            display: block;
+            z-index: 9999;
+            background: url("pictures/assets/burger-icon.png") center/contain;
+            border:none;
+            position: absolute;
+            /* Insert Menu Icon via Background*/
+            width: 2.2rem;
+            aspect-ratio: 1;
+            top: 0.5rem;
+            right: 1rem;
+    
+        }
     }
 
-    .logo{
-        font-family: "Megrim";
-        color: #4EB5FF;
-    }
+
+
+
 
     
     /* --- Banner --- */
