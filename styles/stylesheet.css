@@ -17,10 +17,11 @@ body {
     /* --- Nav Bar --- */
     nav {
         background-color: #333333;
-        
+        padding: 0 2em;
+
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     nav a{
@@ -53,7 +54,7 @@ body {
     
     /* --- Banner --- */
     .banner {
-        height: 50em;
+        height: 95vh;
         min-height: fit-content;
         width: 100%;
 
@@ -73,7 +74,7 @@ body {
     /* --- Banner Container --- */
     .banner .container {
         color: rgb(255, 255, 255);
-        padding-bottom: 5em;
+        padding: 10%;
     }
 
     .banner .container h1 {
