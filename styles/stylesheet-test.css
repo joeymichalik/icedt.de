@@ -1,24 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
 
 * {
     font-family: "Jura";
     font-weight: 300;
 }
 
-
-.container{
-    background-color: lightcoral;
-
-    display: flex;
-    justify-content: space-evenly;
-    justify-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    flex-shrink: 1;
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
-.box{
-    padding: 10px;
-    background-color: lightblue;
-    width: 200px;
+
+
+/* --- Nav Bar --- */
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+background-color: steelblue;
+
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 1.5em;
+    padding: 0.5em 2em;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav .navbar{
+    background: coral;
+    list-style: none;
+
+    display: flex;
+    gap: 0.25em;
+}
+
+.logo{
+    font-family: "Megrim";
+}
+
+.mobile-nav-toggle{
+    display: none;
+}
+
+@media (max-width: 35em) {
+    .navbar {
+        position: fixed;
+        inset: 0 0 0 20%;
+        flex-direction: column;
+        padding: 5rem 2rem;
+
+        transform: translate(100%);
+    }
+
+    .navbar[data-visible="true"] {
+        transform: translate(0%);
+    }
+
+    .mobile-nav-toggle{
+        display: block;
+        z-index: 9999;
+        background-color: red;
+        position: absolute;
+        /* Insert Menu Icon via Background*/
+        width: 2rem;
+        aspect-ratio: 1;
+        top: 2rem;
+        right: 2rem;
+
+    }
 }

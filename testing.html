@@ -6,40 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>IcedT - Testing</title>
-    <link rel="stylesheet" href="styles/stylesheet.css">
     <link rel="stylesheet" href="styles/stylesheet-test.css">
     <link rel="icon" href="styles/pictures/[0] icon.png">
+
+    <script src="scripts/nav.js" defer></script>
 </head>
 
 <body>
 
-    <nav>
 
+    <button class="mobile-nav-toggle"></button>
+
+    <nav>
         <a class="logo" href="index.html">IcedT</a>
 
-        <ul class="list">
-            <il><a href="index.html"><span aria-disabled="true">//</span> Home</a></il>
-            <il><a href="counter.html"><span aria-disabled="true">//</span> Counter</a></il>
-            <il><a href="music.html"><span aria-disabled="true">//</span> Music</a></il>
-            <il><a class="current" href="testing.html"><span aria-disabled="true">//</span> Testing</a></il>
+        <ul data-visible="false" class="navbar">
+            <li><a href="index.html"><span aria-disabled="true">//</span> Home</a></li>
+            <li><a href="counter.html"><span aria-disabled="true">//</span> Counter</a></li>
+            <li><a href="music.html"><span aria-disabled="true">//</span> Music</a></li>
+            <li><a class="current" href="testing.html"><span aria-disabled="true">//</span> Testing</a></li>
         </ul>
     </nav>
 
     
     <h1>This is a testing Page</h1>
-    <h2>creating a gird:</h2>
-
-    <div class="container">
-        <div class="box">
-            <p>Box No 1</p>
-        </div>
-        <div class="box">
-            <p>Box No 2</p>
-        </div>
-        <div class="box">
-            <p>Box No 3</p>
-        </div>
-    </div>
     
 
 </body>
