@@ -65,12 +65,12 @@ body {
             transition: transform 200ms ease-in-out;
         }
 
-       /* @supports (backdrop-filter: blur(1rem)){
+        @supports (backdrop-filter: blur(1rem)){
             .primary-navbar{
                 background: hsl(0 0% 100% / 0.2);
                 backdrop-filter: blur(1rem);
             }
-        } */
+        } 
 
         .primary-navbar[data-visible="true"]{
             transform: translate(0%);
