@@ -7,18 +7,41 @@
 }
 
 .counter{
-    background-color: hsl(0 0% 100% / 0.1);
-    backdrop-filter: blur(0.5rem);
-    border-radius: 2em;
-    padding: 0 1em ;
-    font-size: 2em;
+
+}
+
+.counter ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
 
     display: flex;
-    justify-content: center;
+    align-items: center;
+
     gap: 1em;
 }
 
-.counter p{
+.counter ul li{
+    background: rgba(55, 55, 55, 0.75);
+    padding: 0.5em;
+    height: 3em;
+    aspect-ratio: 1;
+    border-radius: 4em;
+
+    font-size: 1.5em;
     text-align: center;
-    width: 2.2em;
+}
+
+@supports (backdrop-filter: blur(1rem)){
+    
+    .counter ul li{
+        background-color: hsl(0 0% 100% / 0.2);
+        backdrop-filter: blur(1rem);
+    }
+}
+
+@media (max-width: 35em){
+    .counter ul{
+        flex-direction: column;
+    }
 }

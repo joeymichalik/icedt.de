@@ -41,9 +41,9 @@ var myfunc = setInterval(function() {
     }
          
     // Result is output to the specific element
-    document.getElementById("days").innerHTML = days + "d, "
-    document.getElementById("hours").innerHTML = hours + "h, " 
-    document.getElementById("mins").innerHTML = minutes + "m, " 
+    document.getElementById("days").innerHTML = days + "d"
+    document.getElementById("hours").innerHTML = hours + "h" 
+    document.getElementById("mins").innerHTML = minutes + "m" 
     document.getElementById("secs").innerHTML = seconds_str + "s" 
          
 }, 1000);
