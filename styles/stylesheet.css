@@ -77,15 +77,16 @@ body {
         }
 
         .mobile-nav-toggle{
+            color: white;
+            background: none;
             display: block;
             z-index: 9999;
-            background: url("pictures/assets/burger-icon.png") center/contain;
             border:none;
             position: fixed;
             /* Insert Menu Icon via Background*/
             width: 2.2rem;
             aspect-ratio: 1;
-            top: 0.5rem;
+            top: 0.75rem;
             right: 1rem;
     
         }
