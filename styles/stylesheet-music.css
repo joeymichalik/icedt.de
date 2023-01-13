@@ -1,3 +1,11 @@
 .banner{
     background: url("pictures/music_background.jpg") center/cover;
 }
+
+.banner .container h1{
+    font-family: "Megrim";
+}
+
+.video-player{
+    max-width: 80vw;
+}
