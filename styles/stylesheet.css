@@ -56,7 +56,7 @@ body {
             backdrop-filter: blur(1rem);
             
             z-index: 1000;
-            position: absolute;
+            position: fixed;
             flex-direction: column;
             gap: 0.5em;
 
@@ -67,7 +67,6 @@ body {
 
         .primary-navbar[data-visible="true"]{
             transform: translate(0%);
-            position: fixed;
         }
 
         .mobile-nav-toggle{
