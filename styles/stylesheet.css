@@ -63,6 +63,7 @@ body {
             inset: 0 0 0 30%;
             padding: 5rem 0 0 2rem;
             transform: translate(100%);
+            transition: transform 200ms ease-in-out;
         }
 
         .primary-navbar[data-visible="true"]{
@@ -74,7 +75,7 @@ body {
             z-index: 9999;
             background: url("pictures/assets/burger-icon.png") center/contain;
             border:none;
-            position: absolute;
+            position: fixed;
             /* Insert Menu Icon via Background*/
             width: 2.2rem;
             aspect-ratio: 1;
