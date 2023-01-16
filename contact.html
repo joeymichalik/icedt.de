@@ -8,6 +8,7 @@
     
         <title>IcedT - Home</title>
         <link rel="stylesheet" href="styles/stylesheet.css">
+        <link rel="stylesheet" href="styles/stylesheet-contact.css">
         <link rel="icon" href="styles/pictures/[0] icon.png">
     
         <script src="scripts/nav.js" defer></script>
@@ -28,10 +29,10 @@
         <a class="logo" href="index.html">IcedT</a>
 
         <ul data-visible="false" class="primary-navbar">
-            <li><a class="current" href="index.html">// Home</a></li>
+            <li><a href="index.html">// Home</a></li>
             <li><a href="counter.html">// Counter</a></li>
             <li><a href="music.html">// Music</a></li>
-            <li><a href="contact.html">// Contact</a></li>
+            <li><a class="current" href="contact.html">// Contact</a></li>
         </ul>
     </nav>
 
@@ -40,10 +41,31 @@
 
         <div class="container">
             <h1>Contact</h1>
-            <h1>Work in Progress...</h1>
 
         </div>
 
+    </div>
+
+    <div class="contact-container">
+        <p>Thanks for your intrest in my website and your try to contact me!</p>
+        <p>To contact me, you can fill in the contact formular below
+            or send me a mail to <a href="mailto:joey@icedt.de">Joey@IcedT.de</a>.</p>
+
+        <div class="formular">
+            <h3>Contact Form</h3>
+
+            <div class="form-container">
+                <label for="name">Name:</label>
+                <input type="text" required minlength="3" name="user-name" id="name">
+                <label for="mail">Email:</label>
+                <input type="email" required name="user-mail" id="mail">
+                <label for="msg">Message:</label>
+                <textarea name="user-msg" required minlength="10" id="msg"></textarea>
+            </div>
+
+            <button>Send</button>
+
+        </div>
     </div>
 
 </body>
