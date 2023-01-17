@@ -43,6 +43,8 @@
 
     <iframe src="https://giphy.com/embed/3oEjI5VtIhHvK37WYo" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
+    <h1>Thank you!</h1>
+
     <form action="/index.html"><button class="headerbutton">Back to <span class="logo">IcedT</span></button></form>
 
     <?php

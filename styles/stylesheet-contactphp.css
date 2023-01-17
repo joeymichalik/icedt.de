@@ -8,6 +8,10 @@
     justify-content: center;
 }
 
+h1{
+    color: white;
+}
+
 button {
     color: white;
     background-color: hsl(0 0% 100% / 0.1);
@@ -21,4 +25,8 @@ button {
 
     border: none;
     border-radius: 1em;
+}
+
+button:hover {
+    background-color: hsl(0 0% 100% / 0.2);
 }
