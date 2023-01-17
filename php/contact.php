@@ -43,7 +43,7 @@
 
     <iframe src="https://giphy.com/embed/3oEjI5VtIhHvK37WYo" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
-    <form action="index.html"><button class="headerbutton">Back to <span class="logo">IcedT</span></button></form>
+    <form action="/index.html"><button class="headerbutton">Back to <span class="logo">IcedT</span></button></form>
 
     <?php
 if(isset($_POST["submit"])){
