@@ -6,10 +6,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-        <title>IcedT - Home</title>
+        <title>IcedT - Thank you!</title>
         <link rel="stylesheet" href="/styles/stylesheet.css">
         <link rel="stylesheet" href="/styles/stylesheet-contactphp.css">
-        <link rel="icon" href="styles/pictures/[0] icon.png">
+        <link rel="icon" href="/styles/pictures/[0] icon.png">
     
         <script src="scripts/nav.js" defer></script>
     
@@ -26,13 +26,13 @@
     
      <!-- Navbar -->
     <nav>
-        <a class="logo" href="index.html">IcedT</a>
+        <a class="logo" href="/index.html">IcedT</a>
 
         <ul data-visible="false" class="primary-navbar">
-            <li><a href="index.html">// Home</a></li>
-            <li><a href="counter.html">// Counter</a></li>
-            <li><a href="music.html">// Music</a></li>
-            <li><a class="current" href="contact.html">// Contact</a></li>
+            <li><a href="/index.html">// Home</a></li>
+            <li><a href="/counter.html">// Counter</a></li>
+            <li><a href="/music.html">// Music</a></li>
+            <li><a class="current" href="/contact.html">// Contact</a></li>
         </ul>
     </nav>
 
