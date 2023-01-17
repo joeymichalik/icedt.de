@@ -8,11 +8,16 @@
     justify-content: center;
 }
 
+.container iframe{
+    max-width: 80vw;
+    max-height: 80vh;
+}
+
 h1{
     color: white;
 }
 
-button {
+.container button {
     color: white;
     background-color: hsl(0 0% 100% / 0.1);
     backdrop-filter: blur(0.5rem);
@@ -27,6 +32,6 @@ button {
     border-radius: 1em;
 }
 
-button:hover {
+.container button:hover {
     background-color: hsl(0 0% 100% / 0.2);
 }

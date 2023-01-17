@@ -41,16 +41,16 @@
 
     <div class="container">
 
-    <iframe src="https://giphy.com/embed/3oEjI5VtIhHvK37WYo" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/3oEjI5VtIhHvK37WYo" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
-    <h1>Thank you!</h1>
+        <h1>Thank you!</h1>
 
-    <form action="/index.html"><button class="headerbutton">Back to <span class="logo">IcedT</span></button></form>
+        <form action="/index.html"><button class="headerbutton">Back to <span class="logo">IcedT</span></button></form>
 
-    <?php
-if(isset($_POST["submit"])){
-    mail("contact@icedt.de", "Contact Form - " . $_POST["user-name"], "NEW MESSAGE PER CONTACT FORM:" . "\n\n" . $_POST["user-name"] . " - Mail: " . $_POST["user-mail"] . "\n\nMessage:\n" . $_POST["user-msg"]);}
-?>
+        <?php
+            if(isset($_POST["submit"])){
+            mail("contact@icedt.de", "Contact Form - " . $_POST["user-name"], "NEW MESSAGE PER CONTACT FORM:" . "\n\n" . $_POST["user-name"] . " - Mail: " . $_POST["user-mail"] . "\n\nMessage:\n" . $_POST["user-msg"]);}
+        ?>
 
     </div>
 
