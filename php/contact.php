@@ -7,8 +7,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
         <title>IcedT - Home</title>
-        <link rel="stylesheet" href="styles/stylesheet.css">
-        <link rel="stylesheet" href="styles/stylesheet-contactphp.css">
+        <link rel="stylesheet" href="/styles/stylesheet.css">
+        <link rel="stylesheet" href="/styles/stylesheet-contactphp.css">
         <link rel="icon" href="styles/pictures/[0] icon.png">
     
         <script src="scripts/nav.js" defer></script>
@@ -42,7 +42,8 @@
     <div class="container">
 
     <iframe src="https://giphy.com/embed/3oEjI5VtIhHvK37WYo" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-    <button>Back to <span class="logo">IcedT</span></button>
+
+    <form action="index.html"><button class="headerbutton">Back to <span class="logo">IcedT</span></button></form>
 
     <?php
 if(isset($_POST["submit"])){
