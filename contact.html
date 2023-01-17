@@ -54,16 +54,15 @@
         <div class="formular">
             <h3>Contact Form</h3>
 
-            <div class="form-container">
+            <form action="contact.php" method="post" class="form-container">
                 <label for="name">Name:</label>
                 <input type="text" required minlength="3" name="user-name" id="name" placeholder="your name...">
                 <label for="mail">Email:</label>
                 <input type="email" required name="user-mail" id="mail" placeholder="your mail...">
                 <label for="msg">Message:</label>
                 <textarea name="user-msg" required minlength="10" id="msg" placeholder="your message..."></textarea>
-            </div>
-
-            <button>Send</button>
+                <button type="submit" name="submit">Send</button>
+            </form>
 
         </div>
     </div>
