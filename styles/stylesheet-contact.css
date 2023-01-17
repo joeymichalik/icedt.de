@@ -1,5 +1,5 @@
 .banner{
-    height: 10em;
+    height: 40em;
 }
 
 h1{
@@ -15,6 +15,8 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    padding-bottom: 10em;
 }
 
 .contact-container a{
@@ -23,6 +25,7 @@ h1{
 
 /* Form */
 .formular{
+    margin-top: 5em;
     display: flex;
     flex-direction: column;
 }
