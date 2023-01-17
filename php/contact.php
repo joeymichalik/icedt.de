@@ -39,7 +39,7 @@
 
     <!-- START OF CONTENT -->
 
-    <div class="container">
+    <div class="page">
 
         <iframe src="https://giphy.com/embed/3oEjI5VtIhHvK37WYo" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
