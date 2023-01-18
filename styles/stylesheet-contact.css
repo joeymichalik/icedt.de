@@ -93,7 +93,7 @@ label {
     border: none;
 }
 
-button:hover {
+.formular button:hover {
     font-weight: 900;
     border: #76c3fa solid 3px;
 }
