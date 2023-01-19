@@ -4,6 +4,8 @@
 * {
     font-family: "Jura";
     font-weight: 300;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -11,6 +13,18 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
+
+/* Attributes */
+    .flex-col{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-center{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
 
 /* !--- OBJECTS ---! */
@@ -184,6 +198,7 @@ body {
         background-color: white;
         height: 1px;
         width: 100%;
+        margin-top: 1em;
     }
 
 
@@ -191,6 +206,7 @@ body {
     .footer {
         display: flex;
         padding-left: 30px;
+        padding: 1em 2em;
 
         color: white;
         background-color: #333333;
