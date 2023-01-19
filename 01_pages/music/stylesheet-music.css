@@ -1,5 +1,5 @@
 .banner{
-    background: url("pictures/music_background.jpg") center/cover;
+    background: url("/03_assets/pictures/music_background.jpg") center/cover;
 }
 
 .banner .container h1{

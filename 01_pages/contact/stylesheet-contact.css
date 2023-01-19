@@ -1,5 +1,6 @@
 .banner{
     height: 40em;
+    background: url("/03_assets/pictures/unused1.jpg") no-repeat center/cover;
 }
 
 h1{
