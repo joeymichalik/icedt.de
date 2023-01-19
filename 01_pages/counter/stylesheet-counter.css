@@ -1,13 +1,9 @@
 .banner{
-    background: url("/03_assets/pictures/counter_background_full.jpg") center/cover;
+    background: url("/03_assets/pictures/unused6.jpeg") no-repeat center/cover;
 }
 
 .banner h1{
     font-family: "Megrim";
-}
-
-.counter{
-
 }
 
 .counter ul{
