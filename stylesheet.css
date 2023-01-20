@@ -247,7 +247,7 @@ a{
     
     .info-cards{
         display: grid;
-        max-width: 80%;
+        max-width: min(80%,80em);
         gap: 2em;
         grid-template-columns: repeat(2, 1fr);
     }
