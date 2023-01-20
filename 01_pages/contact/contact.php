@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-        <title>IcedT - Home</title>
+        <title>IcedT - Kontakt</title>
         <link rel="stylesheet" href="/stylesheet.css">
         <link rel="stylesheet" href="/01_pages/contact/stylesheet-contactphp.css">
         <link rel="icon" href="/03_assets/pictures/[0] icon.png icon.png">
@@ -34,14 +34,14 @@
             <ul data-visible="false" class="primary-navbar">
                 <li><a href="/index.html">// Home <sup>01</sup></a></li>
                 <li><a href="/01_pages/counter/counter.html">// Counter <sup>02</sup></a></li>
-                <li><a href="/01_pages/music/music.html">// Music <sup>03</sup></a></li>
-                <li><a href="/01_pages/contact/contact.html">// Contact <sup>04</sup></a></li>
+                <li><a href="/01_pages/music/music.html">// MusiK <sup>03</sup></a></li>
+                <li><a href="/01_pages/contact/contact.html">// Kontakt <sup>04</sup></a></li>
             </ul>
         </nav>
 
         <iframe src="https://giphy.com/embed/3oEjI5VtIhHvK37WYo" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
-        <h1>Thank you!</h1>
+        <h1>Dankeschön!</h1>
 
         <form action="/index.html"><button class="headerbutton">Back to <span class="logo">IcedT</span></button></form>
 
