@@ -193,6 +193,7 @@ a{
 
     .banner .buttons button:hover {
         background-color: hsl(0 0% 100% / 0.2);
+        color: lightsalmon;
     }
 
 

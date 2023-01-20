@@ -52,7 +52,7 @@ h1{
 }
 
 .form-container input:invalid {
-    border: solid #fd7676 1px
+    border: solid lightsalmon 1px
 }
 
 .form-container textarea{
@@ -72,7 +72,7 @@ h1{
 }
 
 .form-container textarea:invalid{
-        border: solid #fd7676 1px;
+        border: solid lightsalmon 1px;
 }
 
 label {
@@ -97,6 +97,6 @@ label {
 
 .formular button:hover {
     font-weight: 900;
-    border: #76c3fa solid 3px;
+    border: solid 2px lightsalmon;
 }
 
