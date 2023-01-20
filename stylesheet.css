@@ -86,7 +86,7 @@ a{
         display: none;
     }
 
-    @media (max-width: 45em) {
+    @media (max-width: 60em) {
         .primary-navbar{
             background: rgba(33, 33, 33, 0.75);
             
