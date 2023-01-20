@@ -1,41 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+*{
+    margin: 0;
+    padding: 0;
 
-.grid-col-span-2{
-    grid-column: span 2;
+    font-family: "Jura";
 }
 
-.card-badge{
-    height: 5em;
-    margin: 1em;
-}
-
-.info-cards{
-    background-color: grey;
-    display: grid;
-    max-width: 80%;
-    gap: 2em;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.info-cards article{
-    background: hsl(0 0% 100% /0.2);
-    backdrop-filter: blur(2rem);
-    color: white;
-    border-radius: 2em;
-    padding: 2em;
-}
-
-.info-cards article .head{
-    display: flex;
-}
-
-.info-cards .heading{
+.flex-col{
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
-.info-cards .body{
-    padding-top: 2em;
+.flex-center{
+    justify-content: center;
+    align-items: center;
 }
+
+/* >>>START OF CONTENT<<< */
+
+.page-header{
+    background: url(/03_assets/pictures/unused3.jpeg) center/cover;
+    height: 100vh;
+}
+
+nav{
+    font-size: 1.5em;
+}
+
+sup{
+    color: lightgray;
+    font-size: 0.7em;
+}
+
+.logo{
+    background-color: hsl(0 0% 100% / 0.25);
+    backdrop-filter: blur(0.5em);
+    border-radius: 0 0 1em 0;
+    padding: 0.5em 1em 0.5em 0.5em;
+    position: fixed;
+    left: 0em;
+    top: 0em;
+    color: #389fff;
+    text-decoration: none;
+    font-family: "Megrim";
+}
+
+.primary-navbar{
+    background-color: hsl(0 0% 100% / 0.25);
+    backdrop-filter: blur(0.5em);
+    border-radius: 0 0 0 1em;
+    color: white;
+    list-style: none;
+
+    padding: 0.5em 0.5em 0.5em 1em;
+
+    position: fixed;
+    top: 0em;
+    right: 0em;
+    display: flex;
+    gap: 2em;
+}
+
+.primary-navbar a{
+    color: white;
+    text-decoration: none;
+}
+

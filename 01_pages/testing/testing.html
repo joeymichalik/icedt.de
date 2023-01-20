@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>IcedT - Testing</title>
-    <link rel="stylesheet" href="/stylesheet.css">
     <link rel="stylesheet" href="/01_pages/testing/stylesheet-test.css">
     <link rel="icon" href="/03_assets/pictures/[0] icon.png icon.png">
 
@@ -15,99 +14,36 @@
 
 <body>
 
-    <button class="mobile-nav-toggle"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-        <line x1="4" y1="6" x2="20" y2="6"></line>
-        <line x1="4" y1="12" x2="20" y2="12"></line>
-        <line x1="4" y1="18" x2="20" y2="18"></line>
-     </svg></button>
-    
-    <nav>
+    <header class="page-header flex-col flex-center">
 
-        <a class="logo" href="index.html">IcedT</a>
-
-        <ul data-visible="false" class="primary-navbar">
-            <li><a href="/index.html">// Home</a></li>
-            <li><a href="/01_pages/counter/counter.html">// Counter</a></li>
-            <li><a href="/01_pages/music/music.html">// Music</a></li>
-            <li><a href="/01_pages/contact/contact.html">// Contact</a></li>
-        </ul>
+        <!-- Burge Menu for Navbar -->
+        <button class="mobile-nav-toggle"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <line x1="4" y1="6" x2="20" y2="6"></line>
+            <line x1="4" y1="12" x2="20" y2="12"></line>
+            <line x1="4" y1="18" x2="20" y2="18"></line>
+        </svg></button>
         
-    </nav>
+        <!-- Navbar -->
+        <nav>
+            <a class="logo" href="/index.html">IcedT</a>
+
+            <ul data-visible="false" class="primary-navbar">
+                <li><a href="/index.html">// Home <sup>01</sup></a></li>
+                <li><a href="/01_pages/counter/counter.html">// Counter <sup>02</sup></a></li>
+                <li><a href="/01_pages/music/music.html">// Music <sup>03</sup></a></li>
+                <li><a href="/01_pages/contact/contact.html">// Contact <sup>04</sup></a></li>
+            </ul>
+        </nav>
+        
+
+        <div class="flex-col flex-center">
+            <h1>New NavBar Theme</h1>
+            <button>Test</button>
+        </div>
+    </header>
 
     
-    <h1>This is a testing Page</h1>
-
-    <div class="info-cards">
-        <article class="grid-col-span-2">
-            <div class="head">
-                <img class="card-badge" src="/03_assets/pictures/Logos/HTML5_badge.png" alt="HTML5 Badge">
-                <div class="heading">
-                    <h2>HTML</h2>
-                    <p>Hypertext Markup Language</p>
-                </div>
-            </div>
-            <div class="body">
-                <p>HTML ist eine Markup Language auf welcher Internetseiten basieren. 
-                    Sie wird zur Auszeichnung von Objekten, als auch zur Strukturierung einer Website genutzt. 
-                    HTML bildet das grundlegende Skelett jeder Website - Es beschreibt alle Objekte welche auf der Webseite zu sehen sind mit sogenannten Tags. 
-                    Zum Beispiel würde eine Überschrift folgendermaßen deklariert werden:<br>
-                    <span style="color: #4EB5FF;">&lt;h1&gt;</span>Überschrift<span style="color: #4EB5FF;">&lt;/h1&gt;</span></p>
-            </div>
-        </article>
-
-        <article>
-            <div class="head">
-                <img class="card-badge" src="/03_assets/pictures/Logos/CSS3_logo.svg.png" alt="HTML5 Badge">
-                <div class="heading">
-                    <h2>CSS</h2>
-                    <p>Cascading Style Sheets</p>
-                </div>
-            </div>
-            <div class="body">
-                <p>CSS ist eine Formatierungssprache für u.a. HTML - Sie macht aus dem eintönigen HTML Skelett, eine ansehnliche Website.
-                    Zunächst werden alle in HTML deklarierten Objekte in Standart-Stil untereinander angeordnet...
-                    Verlinkt man nun ein Stylesheet (eine CSS-Datei) und legt in diesem einige Eigenschaften für gewisse Objekte fest - 
-                    wie z.B. Höhe/Breite, Farbe, Display-Art und vieles mehr - wird aus dem eintönigen HTML Skelett, 
-                    eine nach eigenen wünschen strukturierte und gestaltete Website.
-                </p>
-            </div>
-        </article>
-
-        <article>
-            <div class="head">
-                <img class="card-badge" src="/03_assets/pictures/Logos/JavaScript-logo.png" alt="HTML5 Badge">
-                <div class="heading">
-                    <h2>JS</h2>
-                    <p>JavaScript</p>
-                </div>
-            </div>
-            <div class="body">
-                <p>HTML ist eine Markup Language auf welcher Internetseiten basieren. 
-                    Sie wird zur Auszeichnung von Objekten, als auch zur Strukturierung einer Website genutzt. 
-                    HTML bildet das grundlegende Skelett jeder Website - Sie beschreibt alle Objekte welche auf der Webseite zu sehen sind mit sogenannten Tags. 
-                    Zum Beispiel würde eine Überschrift folgendermaßen deklariert werden:<br>
-                    <span style="color: #4EB5FF;">&lt;h1&gt;</span>Überschrift<span style="color: #4EB5FF;">&lt;/h1&gt;</span></p>
-            </div>
-        </article>
-
-        <article class="grid-col-span-2">
-            <div class="head">
-                <img class="card-badge" src="/03_assets/pictures/Logos/PHP-logo.png" alt="PHP Logo">
-                <div class="heading">
-                    <h2>PHP</h2>
-                    <p>Hypertext Preprocessor</p>
-                </div>
-            </div>
-            <div class="body">
-                <p>HTML ist eine Markup Language auf welcher Internetseiten basieren. 
-                    Sie wird zur Auszeichnung von Objekten, als auch zur Strukturierung einer Website genutzt. 
-                    HTML bildet das grundlegende Skelett jeder Website - Sie beschreibt alle Objekte welche auf der Webseite zu sehen sind mit sogenannten Tags. 
-                    Zum Beispiel würde eine Überschrift folgendermaßen deklariert werden:<br>
-                    <span style="color: #4EB5FF;">&lt;h1&gt;</span>Überschrift<span style="color: #4EB5FF;">&lt;/h1&gt;</span></p>
-            </div>
-        </article>
-    </div>
     
 
 </body>
