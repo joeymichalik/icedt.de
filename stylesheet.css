@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
 
 * {
     font-family: "Jura";
-    font-weight: 300;
+    font-weight: 100;
     margin: 0;
     padding: 0;
 }
