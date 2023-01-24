@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.banner{
+    background: url("/03_assets/pictures/changes.jpeg") center/cover;
+    height: 40em;
+}
+
+.banner .container h1{
+    font-family: "Megrim";
+}
+
+
+/* Changes */
+.changes-container{
+    background-color: #333333;
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.change{
+    width: 100%;
+    max-width: 80em;
+    padding: 1em;
+}
+
+/* Collapsible */
+.collapsible{
+    background-color: hsl(0 0% 100% / 0.2);
+    color: white;
+    cursor: pointer;
+
+    width: 100%;
+    padding: 1em;
+
+    border-radius: 1em;
+    border: none;
+    text-align: center;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.collapsible h5{
+    font-size: 1.5em;
+    font-weight: 100;
+}
+.collapsible p{
+    font-size: 1.25em;
+}
+
+.collapsible:hover{
+    background: hsl(0 0% 100% / 0.4);
+}
+
+.active{
+    background: hsl(0 0% 100% / 0.2);
+    border-radius: 1em 1em 0 0;
+}
+
+.content{
+    display: none;
+    overflow: hidden;
+
+    padding: 1em;
+
+    border: solid 2px hsl(0 0% 100% / 0.2);
+    border-radius: 0 0 1em 1em;
+
+    color: white;
+
+}
+
+
