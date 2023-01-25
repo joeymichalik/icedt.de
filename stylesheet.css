@@ -46,14 +46,13 @@ a{
 
         padding: 0.5em 1em;
 
-        background-color: hsl(0 0% 100% / 0.2);
-        backdrop-filter: blur(1em);
+        background: rgba(33, 33, 33, 0.75);
         border-radius: 0 0 1em 0;
     }
-    
+
     nav{
-        font-size: 1.5em;
-    }
+            font-size: 1.5em;
+        } 
 
     .primary-navbar{
         z-index: 9999;
@@ -63,8 +62,7 @@ a{
 
         padding: 0.25em 1em 0.5em 1em;
 
-        background-color: hsl(0 0% 100% / 0.2);
-        backdrop-filter: blur(1em);
+        background: rgba(33, 33, 33, 0.75);
         border-radius: 0 0 0 1em;
 
         list-style: none;
@@ -86,6 +84,17 @@ a{
         display: none;
     }
 
+    @supports(backdrop-filter: blur(1em)) {
+        nav .logo{
+            background-color: hsl(0 0% 100% / 0.2);
+            backdrop-filter: blur(1em);
+        }
+        .primary-navbar{
+            background-color: hsl(0 0% 100% / 0.2);
+            backdrop-filter: blur(1em);
+        }
+    }
+
     @media (max-width: 60em) {
         .primary-navbar{
             background: rgba(33, 33, 33, 0.75);
@@ -95,27 +104,22 @@ a{
             flex-direction: column;
             gap: 0.5em;
 
-            inset: 0 0 0 30%;
+            inset: 0 0 0 40%;
             padding: 5rem 0 0 2rem;
             transform: translate(100%);
+            transition: transform 200ms ease;
         }
 
-        @supports (backdrop-filter: blur(1rem)){
-            .primary-navbar{
-                background: hsl(0 0% 100% / 0.2);
-                backdrop-filter: blur(1rem);
-            }
-        } 
+       
 
         .primary-navbar[data-visible="true"]{
             transform: translate(0%);
-            transition: transform 200ms ease-in-out;
+            transition: transform 200ms ease;
         }
 
         .mobile-nav-toggle{
             color: white;
-            background: hsl(0 0% 100% / 0.2);
-            backdrop-filter: blur(1em);
+            background: rgba(33, 33, 33, 0.75);
 
             display: block;
             z-index: 9999;
@@ -129,6 +133,18 @@ a{
             right: 0;
     
         }
+
+        @supports (backdrop-filter: blur(1rem)){
+            .primary-navbar{
+                background: hsl(0 0% 100% / 0.2);
+                backdrop-filter: blur(1rem);
+            }
+
+            .mobile-nav-toggle{
+                background: hsl(0 0% 100% / 0.2);
+                backdrop-filter: blur(1rem);
+            }
+        } 
     }
 
 

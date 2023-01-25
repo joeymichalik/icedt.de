@@ -17,7 +17,7 @@
 /* Changes */
 .changes-container{
     background-color: #333333;
-    padding: 5em;
+    padding: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,7 +27,7 @@
 .change{
     width: 100%;
     max-width: 80em;
-    padding: 1em;
+    padding: 1em 0;
 }
 
 /* Collapsible */
@@ -36,15 +36,18 @@
     color: white;
     cursor: pointer;
 
+    text-align: left;
+    hyphens: none;
+
     width: 100%;
     padding: 1em;
 
     border-radius: 1em;
     border: none;
-    text-align: center;
 
     display: flex;
     justify-content: space-between;
+    gap: 2em;
 }
 
 .collapsible h5{
@@ -75,6 +78,16 @@
 
     color: white;
 
+}
+
+.changelog{
+    color: lightgrey;
+}
+
+.changelog-divider{
+    height: 0.05em;
+    background-color: gray;
+    margin: 2em 0 1em 0;
 }
 
 
