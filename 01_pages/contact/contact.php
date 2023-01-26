@@ -9,7 +9,7 @@
         <title>IcedT - Kontakt</title>
         <link rel="stylesheet" href="/stylesheet.css">
         <link rel="stylesheet" href="/01_pages/contact/stylesheet-contactphp.css">
-        <link rel="icon" href="/03_assets/pictures/[0] icon.png icon.png">
+        <link rel="icon" href="/03_assets/pictures/ICON/PNG/Lower-Salmon.png">
     
         <script src="/02_scripts/nav.js" defer></script>
     

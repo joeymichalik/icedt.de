@@ -73,10 +73,11 @@
 
     padding: 1em;
 
-    border: solid 2px hsl(0 0% 100% / 0.2);
+    border: solid 2px hsl(0 0% 100% / 0.1);
     border-radius: 0 0 1em 1em;
 
     color: white;
+    background-color: hsl(0 0% 100% / 0.1);
 
 }
 
@@ -88,6 +89,12 @@
     height: 0.05em;
     background-color: gray;
     margin: 2em 0 1em 0;
+}
+
+.content .icedt-logo{
+    padding: 1em;
+    width: 7.5em;
+    aspect-ratio: 1/1;
 }
 
 
