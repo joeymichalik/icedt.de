@@ -72,7 +72,7 @@ a{
 
     .primary-navbar sup{
         font-size: 0.75em;
-        color: lightsalmon;
+        color: lightsalmon; /* r255, g160, b122*/
     }
 
     nav a{
