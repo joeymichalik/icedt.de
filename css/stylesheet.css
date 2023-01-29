@@ -159,7 +159,7 @@ a{
         min-height: fit-content;
         width: 100%;
 
-        background: url("/03_assets/pictures/Home-Background.jpg") no-repeat center/cover;
+        background: url("/img/background/Home-Background.jpg") no-repeat center/cover;
 
         display: flex;
         justify-content: center;
@@ -249,7 +249,7 @@ a{
 
     /* Info Cards */
     .info-cards-container{
-            background: url("/03_assets/pictures/infocards.jpeg") bottom center/cover;
+            background: url("/img/background/infocards.jpeg") bottom center/cover;
             padding: 5em 0;
     }
 
