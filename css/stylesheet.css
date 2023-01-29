@@ -90,7 +90,22 @@ a{
     nav a{
         color: white;
         text-decoration: none;
+
+        transition: color ease 150ms;
     }
+    nav a:hover{
+        color: #4EB5FF;
+
+        transition: color ease 150ms;
+    }
+    nav li .current{
+        color: rgb(165, 165, 165);
+        cursor: default;
+    }
+    .primary-navbar .current sup{
+        text-decoration: underline 3px;
+    }
+
 
     .mobile-nav-toggle{
         display: none;
@@ -206,12 +221,18 @@ a{
 
         border: none;
         border-radius: 1em;
+
+        transition: scale ease 200ms, background ease 200ms, color ease 100ms;
         
     }
 
     .banner .buttons button:hover {
         background-color: hsl(0 0% 100% / 0.2);
         color: lightsalmon;
+        scale: 1.1;
+
+        transition: scale ease 200ms, background ease 200ms, color ease 100ms;
+
     }
 
 
