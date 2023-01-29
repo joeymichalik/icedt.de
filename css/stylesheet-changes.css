@@ -48,18 +48,21 @@
     display: flex;
     justify-content: space-between;
     gap: 2em;
+
+    transition: background ease 200ms;
 }
 
 .collapsible h5{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 100;
 }
 .collapsible p{
-    font-size: 1.25em;
+    font-size: 1.25rem;
 }
 
 .collapsible:hover{
     background: hsl(0 0% 100% / 0.4);
+    transition: background ease 200ms;
 }
 
 .active{

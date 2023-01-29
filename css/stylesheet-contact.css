@@ -44,7 +44,7 @@ h1{
     border: none;
     border-radius: 0.5em;
 
-    font-size: 1em;
+    font-size: 1rem;
 
     height: 2em;
     width: 20em;
@@ -61,7 +61,7 @@ h1{
     border-radius: 0.5em;
     border: none;
 
-    font-size: 1em;
+    font-size: 1rem;
 
     width: 80vw;
     max-width: 50em ;
@@ -89,14 +89,18 @@ label {
     width: 8em;
     height: 2em;
 
-    font-size: 1em;
+    font-size: 1.2rem;
 
     border-radius: 1em;
     border: none;
+
+    transition: scale ease 100ms;
 }
 
 .formular button:hover {
-    font-weight: 900;
+    scale: 1.1;
+    transition: scale ease 100ms;
     border: solid 2px lightsalmon;
+    cursor: pointer;
 }
 

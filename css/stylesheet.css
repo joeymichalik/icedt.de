@@ -14,6 +14,10 @@ body {
     background-color: #333333;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 100;
+}
+
 /* Attributes */
     .flex{
         display: flex;
@@ -59,7 +63,7 @@ a{
     }
 
     nav{
-            font-size: 1.5em;
+            font-size: 1.5rem;
         } 
 
     .primary-navbar{
@@ -79,7 +83,7 @@ a{
     }
 
     .primary-navbar sup{
-        font-size: 0.75em;
+        font-size: 1rem;
         color: lightsalmon; /* r255, g160, b122*/
     }
 
@@ -92,10 +96,10 @@ a{
         display: none;
     }
 
-    @supports(backdrop-filter: blur(1em)) {
+    @supports(backdrop-filter: blur(1rem)) {
         .primary-navbar{
             background-color: hsl(0 0% 100% / 0.2);
-            backdrop-filter: blur(1em);
+            backdrop-filter: blur(1rem);
         }
     }
 
@@ -109,7 +113,7 @@ a{
             gap: 0.5em;
 
             inset: 0 0 0 40%;
-            padding: 5rem 0 0 2rem;
+            padding: 3em 0 0 2em;
             transform: translate(100%);
             transition: transform 200ms ease;
         }
@@ -167,7 +171,7 @@ a{
     }
 
     .banner h1 {
-        font-size: 4em;
+        font-size: 4rem;
         text-align: center;
     }
 
@@ -183,11 +187,6 @@ a{
         font-weight: lighter;
     }
 
-    .banner .container h2 {
-        font-size: 2em;
-        text-align: center;
-    }
-
     .banner .buttons {
         display: flex;
         justify-content: center;
@@ -198,7 +197,7 @@ a{
         color: white;
         background-color: hsl(0 0% 100% / 0.1);
         backdrop-filter: blur(0.5rem);
-        font-size: 1.7em;
+        font-size: 1.7rem;
 
         width: 8em;
 
