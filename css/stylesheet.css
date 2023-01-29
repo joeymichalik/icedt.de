@@ -46,6 +46,12 @@ h1, h2, h3, h4, h5, h6 {
 
 a{
     color: #4EB5FF;
+    transition: color ease 300ms;
+}
+
+a:hover{
+    color: lightsalmon;
+    transition: color ease 300ms;
 }
 
 .logo{
