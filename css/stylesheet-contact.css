@@ -23,7 +23,8 @@ h1{
     color: #4EB5FF;
 }
 
-/* Form */
+
+/* FORM */
 .formular{
     display: flex;
     flex-direction: column;
@@ -38,26 +39,37 @@ h1{
     
 }
 
+
+/*INPUT - NAME + MAIL*/
 .form-container input{
     margin-top: 0.5em;
+    padding: 0 0.25em 0 0.25em;
     background-color: lightgray;
     border: none;
     border-radius: 0.5em;
 
     font-size: 1rem;
+    caret-color: salmon;
 
     height: 2em;
     width: 20em;
     max-width: 80vw;
 }
-
+.form-container input:focus{
+    outline: none;
+}
 .form-container input:invalid {
-    border: solid lightsalmon 1px
+    outline: solid salmon 1px;
+    outline-offset: -1px;
 }
 
+
+/*MESSAGE INPUT - TEXTAREA*/
 .form-container textarea{
     background-color: lightgray;
+    caret-color: salmon;
     margin-top: 0.5em;
+    padding: 0.25em 0.25em 0 0.25em;
     border-radius: 0.5em;
     border: none;
 
@@ -70,16 +82,19 @@ h1{
     resize: none;
     scroll-behavior: auto;
 }
-
+.form-container textarea:focus{
+    outline: none;
+}
 .form-container textarea:invalid{
-        border: solid lightsalmon 1px;
+    outline: solid salmon 1px ;
+    outline-offset: -1px;
 }
 
 label {
     padding-top: 1em;
 }
 
-/* Button */
+/* BUTTON */
 .formular button{
     color: white;
     background-color: #4EB5FF;
