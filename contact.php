@@ -29,7 +29,7 @@
         
         <!-- Navbar -->
         <nav>
-            <a href="/index.html"><img class="logo" src="/03_assets/pictures/ICON/PNG/t-salmon.png" alt="IcedT Logo"></a> 
+            <a href="/index.html"><img class="logo" src="/img/logo/Lower-Salmon.png" alt="IcedT Logo"></a> 
 
             <ul data-visible="false" class="primary-navbar">
                 <li><a href="/index.html">// Home <sup>01</sup></a></li>
