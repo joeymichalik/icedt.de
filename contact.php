@@ -32,7 +32,7 @@
             <a href="/index.html"><img class="logo" src="/img/logo/Lower-Salmon.png" alt="IcedT Logo"></a> 
 
             <ul data-visible="false" class="primary-navbar">
-                <li><a href="/index.html">// Home <sup>01</sup></a></li>
+                <li><a href="https://www.icedt.de">// Home <sup>01</sup></a></li>
                 <li><a href="/counter.html">// Counter <sup>02</sup></a></li>
                 <li><a href="/changes.html">// Changes <sup>03</sup></a></li>
                 <li><a class="current" href="/contact.html">// Kontakt <sup>04</sup></a></li>
@@ -43,7 +43,7 @@
 
         <h1>Dankeschön!</h1>
 
-        <form action="/index.html"><button class="headerbutton">Back to <span class="logo">IcedT</span></button></form>
+        <form action="https://www.icedt.de"><button class="headerbutton">Back to <span class="logo">IcedT</span></button></form>
 
         <?php
             if(isset($_POST["submit"])){

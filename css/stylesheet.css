@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
 
 * {
-    font-family: "Jura";
+    font-family: "Jura", sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -55,7 +55,7 @@ a:hover{
 }
 
 .logo{
-        font-family: "Megrim";
+    font-family: "Megrim", sans-serif;
         color: #4EB5FF;
  }
 
@@ -197,6 +197,11 @@ a:hover{
 
     .banner h1 {
         font-size: 4rem;
+        text-align: center;
+    }
+
+    .banner h2 {
+        font-size: 3rem;
         text-align: center;
     }
 
@@ -342,7 +347,6 @@ a:hover{
     /* Footer */
     .footer {
         display: flex;
-        padding-left: 30px;
         padding: 1em 2em;
 
         color: white;
